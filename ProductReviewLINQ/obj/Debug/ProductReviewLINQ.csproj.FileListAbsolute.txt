@@ -1,0 +1,7 @@
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\bin\Debug\ProductReviewLINQ.exe.config
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\bin\Debug\ProductReviewLINQ.exe
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\bin\Debug\ProductReviewLINQ.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\obj\Debug\ProductReviewLINQ.csprojAssemblyReference.cache
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\obj\Debug\ProductReviewLINQ.csproj.CoreCompileInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\obj\Debug\ProductReviewLINQ.exe
+C:\Users\K.R.DHASHNIGA\source\repos\ProductReviewLINQ\ProductReviewLINQ\obj\Debug\ProductReviewLINQ.pdb

@@ -11,7 +11,7 @@ namespace ProductReviewLINQ
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Product Management Review Program");
-            ///UC1 Creating a List of ProductReview and Adding values into List.
+            //UC1 Creating a List of ProductReview and Adding values into List.
             List<ProductReview> productReviewlist = new List<ProductReview>()
             {
                 new ProductReview() { ProductId = 1, UserId = 1, Rating = 5, Review = "Excelent", isLike = true },

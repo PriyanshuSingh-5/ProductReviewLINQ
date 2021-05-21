@@ -70,5 +70,17 @@ namespace ProductReviewLINQ
                 Console.WriteLine("Product Id :" + productReview.ProductId + "\t" + "User Id :" + productReview.UserId + "\t" + "Rating ;" + productReview.Rating + "\t" + "Review :" + productReview.Review + "\t" + "Is Like :" + productReview.isLike);
             }
         }
+
+        // UC7 Retrieving reviews and productId using the lambda expression syntax
+       
+        public static void RetrieveProductIDAndReviewUsingLambdaSyntax(List<ProductReview> list)
+        {
+            var recordedData = list.Select(reviews => new { ProductId = reviews.ProductId, Review = reviews.Review });
+            Console.WriteLine("\n Retrieving Product and Review from list");
+            foreach (var productReview in recordedData)
+            {
+                Console.WriteLine("Product ID : " + productReview.ProductId + "\t" + "Review : " + productReview.Review);
+            }
+        }
     }
 }

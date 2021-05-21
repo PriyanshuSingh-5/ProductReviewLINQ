@@ -32,7 +32,8 @@ namespace ProductReviewLINQ
             //}
             //ReviewManagement.RetrieveTopThreeRatedRecords(productReviewlist);
             //ReviewManagement.RetrieveRecordsWithGreaterThanThreeRating(productReviewlist);
-            ReviewManagement.RetrieveCountOfReviewForEachProductId(productReviewlist);
+           // ReviewManagement.RetrieveCountOfReviewForEachProductId(productReviewlist);
+            ReviewManagement.RetrieveProductIDAndReviewOfAllRecords(productReviewlist);
             Console.ReadLine();
         }
     }

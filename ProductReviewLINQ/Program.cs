@@ -26,10 +26,11 @@ namespace ProductReviewLINQ
                 new ProductReview() { ProductId = 6, UserId = 7, Rating = 1, Review = "Very Bad", isLike = true },
                 new ProductReview() { ProductId = 6, UserId = 7, Rating = 3, Review = "Average",  isLike = true }
             };
-            foreach (var list in productReviewlist)
-            {
-                Console.WriteLine("Product Id :" + list.ProductId + "\t" + "User Id :" + list.UserId + "\t" + "Rating ;" + list.Rating + "\t" + "Review :" + list.Review + "\t" + "Is Like :" + list.isLike);
-            }
+            //foreach (var list in productReviewlist)
+            //{
+            //    Console.WriteLine("Product Id :" + list.ProductId + "\t" + "User Id :" + list.UserId + "\t" + "Rating ;" + list.Rating + "\t" + "Review :" + list.Review + "\t" + "Is Like :" + list.isLike);
+            //}
+            ReviewManagement.RetrieveTopThreeRatedRecords(productReviewlist);
             Console.ReadLine();
         }
     }

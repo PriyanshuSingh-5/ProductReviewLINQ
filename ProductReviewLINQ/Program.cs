@@ -35,7 +35,8 @@ namespace ProductReviewLINQ
            // ReviewManagement.RetrieveCountOfReviewForEachProductId(productReviewlist);
             //ReviewManagement.RetrieveProductIDAndReviewOfAllRecords(productReviewlist);
             //ReviewManagement.SkipTopFiveRecords(productReviewlist);
-            ReviewManagement.RetrieveProductIDAndReviewUsingLambdaSyntax(productReviewlist);
+           // ReviewManagement.RetrieveProductIDAndReviewUsingLambdaSyntax(productReviewlist);
+           ReviewTable.AddDataIntoDataTable();
             Console.ReadLine();
         }
     }

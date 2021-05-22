@@ -32,11 +32,14 @@ namespace ProductReviewLINQ
             //}
             //ReviewManagement.RetrieveTopThreeRatedRecords(productReviewlist);
             //ReviewManagement.RetrieveRecordsWithGreaterThanThreeRating(productReviewlist);
-           // ReviewManagement.RetrieveCountOfReviewForEachProductId(productReviewlist);
+            // ReviewManagement.RetrieveCountOfReviewForEachProductId(productReviewlist);
             //ReviewManagement.RetrieveProductIDAndReviewOfAllRecords(productReviewlist);
             //ReviewManagement.SkipTopFiveRecords(productReviewlist);
-           // ReviewManagement.RetrieveProductIDAndReviewUsingLambdaSyntax(productReviewlist);
-           ReviewTable.AddDataIntoDataTable();
+            // ReviewManagement.RetrieveProductIDAndReviewUsingLambdaSyntax(productReviewlist);
+            //ReviewTable.AddDataIntoDataTable();
+            //ReviewTable.RetrieveRecordWithTrueIsLike();
+            // ReviewTable.FindAverageRatingOfTheEachProductId();
+            ReviewTable.RetrieveRecordsWithReviewContainsNice();
             Console.ReadLine();
         }
     }

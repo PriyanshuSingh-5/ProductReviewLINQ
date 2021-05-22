@@ -78,6 +78,20 @@ namespace ProductReviewLINQ
                 Console.WriteLine("Product Id :" + list.Field<int>("ProductId") + "\t" + "User Id :" + list.Field<int>("UserId") + "\t" + "Rating ;" + list.Field<double>("Rating") + "\t" + "Review :" + list.Field<string>("Review") + "\t" + "Is Like :" + list.Field<bool>("IsLike"));
             }
         }
+
+        // UC12 Retrieves the records for given userId sorted by rating.
+        public static void RetrieveRecordsForGivenUserIdOrderByRating()
+        {
+            var retrievedData = from records in table.AsEnumerable()
+                                where (records.Field<int>("UserId") == 10)
+                                orderby records.Field<double>("Rating") descending
+                                select records;
+            Console.WriteLine("\nSorted records by rating  with userId=10:");
+            foreach (var list in retrievedData)
+            {
+                Console.WriteLine("Product Id :" + list.Field<int>("ProductId") + "\t" + "User Id :" + list.Field<int>("UserId") + "\t" + "Rating ;" + list.Field<double>("Rating") + "\t" + "Review :" + list.Field<string>("Review") + "\t" + "Is Like :" + list.Field<bool>("IsLike"));
+            }
+        }
     }
 }
 

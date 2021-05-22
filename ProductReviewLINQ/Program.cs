@@ -39,7 +39,8 @@ namespace ProductReviewLINQ
             //ReviewTable.AddDataIntoDataTable();
             //ReviewTable.RetrieveRecordWithTrueIsLike();
             // ReviewTable.FindAverageRatingOfTheEachProductId();
-            ReviewTable.RetrieveRecordsWithReviewContainsNice();
+            //ReviewTable.RetrieveRecordsWithReviewContainsNice();
+           ReviewTable.RetrieveRecordsForGivenUserIdOrderByRating();
             Console.ReadLine();
         }
     }

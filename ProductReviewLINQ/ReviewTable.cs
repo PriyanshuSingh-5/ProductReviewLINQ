@@ -79,7 +79,7 @@ namespace ProductReviewLINQ
             }
         }
 
-        // UC12 Retrieves the records for given userId sorted by rating.
+        // UC12 Retrieves the records for given user Id sorted by rating.
         public static void RetrieveRecordsForGivenUserIdOrderByRating()
         {
             var retrievedData = from records in table.AsEnumerable()

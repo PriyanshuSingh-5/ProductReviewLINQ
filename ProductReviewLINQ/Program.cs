@@ -40,6 +40,7 @@ namespace ProductReviewLINQ
             //ReviewTable.RetrieveRecordWithTrueIsLike();
             // ReviewTable.FindAverageRatingOfTheEachProductId();
             //ReviewTable.RetrieveRecordsWithReviewContainsNice();
+            //UC12
            ReviewTable.RetrieveRecordsForGivenUserIdOrderByRating();
             Console.ReadLine();
         }
